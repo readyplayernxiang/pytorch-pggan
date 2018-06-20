@@ -357,7 +357,4 @@ def _image_centre_crop(im, outsize):
 if __name__ == "__main__":
     p = PGGAN(1024, 512, "WGAN-GP")
     p.train(r"E:\workspace\datasets\CelebA\Img\img_align_celeba_classified")
-    # p.gen_image_by_existed_models(r"E:\workspace\gitrepo\gitlab\x-Gans\pggan\output\Gnet_128x128.pth",
-    #                               r"E:\workspace\gitrepo\gitlab\x-Gans\pggan\test001.jpg")
-    # a = collect_d_data(r"E:\workspace\datasets\CelebA\Img\img_align_celeba_classified", 1, 1024, 2)
 
