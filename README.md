@@ -1,7 +1,7 @@
 ### Paper : 
 [Progressive Growing of GANs for Improved Quality, Stability, and Variation](http://arxiv.org/abs/1710.10196)  
 
-You would find some helpful comments in some key functions, which will help you find detail instructions from the paper.
+You would find some helpful comments in some key functions, which may help to find detail instructions from the paper.
 
 ### ENV :
 - OS: Win10
