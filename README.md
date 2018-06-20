@@ -1,9 +1,9 @@
-###Paper : 
+### Paper : 
 [Progressive Growing of GANs for Improved Quality, Stability, and Variation](http://arxiv.org/abs/1710.10196)  
 
 You would find some helpful comments in some key functions, which will help you find detail instructions from the paper.
 
-###ENV :
+### ENV :
 - OS: Win10
 - Python 3.6.3
 - CUDA 8.0
@@ -11,7 +11,7 @@ You would find some helpful comments in some key functions, which will help you 
 - PIL 4.3.0
 - numpy 1.13.3
 
-###How to use :
+### How to use :
 **Gen Image dataset**: Download the CelebA first, then run "gen_classified_images" function in train.py file.
 ```
 if __name__ == "__main__":
@@ -29,7 +29,7 @@ if __name__ == "__main__":
     p.train(r"E:\workspace\datasets\CelebA\Img\img_align_celeba_classified")
 ```
 
-###Reference and Acknowledgement
+### Reference and Acknowledgement
 - https://github.com/tkarras/progressive_growing_of_gans
 - https://github.com/github-pengge/PyTorch-progressive_growing_of_gans
 - https://github.com/caogang/wgan-gp
